@@ -9,5 +9,14 @@ feature :
 4. seeing students details
 5. seeing lecturers details
 6. seeing employees details
+7. editing students details
+8. editing lecturers details
+9. editing employees details
+10. login for admin
+
+plan for future:
+-adding database
+-adding login for students, employees, lecturers
+-adding study plan form feature (students take what course will they learn for 1 semester) 
 ```
 Note : this code is indonesian-languanged, feel free to ask me at twitter @ashitakamu 

@@ -19,4 +19,18 @@ plan for future:
 -adding login for students, employees, lecturers
 -adding study plan form feature (students take what course will they learn for 1 semester) 
 ```
+
+*update version 1.1*
+
+```
+added course addition, fixed bug
+
+plan for future:
+-adding database
+-adding login for students, employees, lecturers
+-fixing bug for false input of birthday input
+-deleting taken course at specific index
+-counting score of each course
+```
+
 Note : this code is indonesian-languanged, feel free to ask me at twitter @ashitakamu 

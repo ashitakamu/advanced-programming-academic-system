@@ -646,7 +646,8 @@ int main(){
 											cout << "Masukkan nama baru : ";
 											cin.ignore(); getline(cin, nama);
 											recTendik[noID-1].setNama(nama);
-											cout << "Nama berhasil diubah!";
+											cout << "Nama berhasil diubah!" << endl;
+											sleep(3);
 											uhuk1 = false;
 										}
 										break;
@@ -655,7 +656,8 @@ int main(){
 											cout << "Masukkan NPP baru : ";
 											cin.ignore(); cin >> npp;
 											recTendik[noID-1].setNPP(npp);
-											cout << "NRP berhasil dirubah!";
+											cout << "NRP berhasil dirubah!" << endl;
+											sleep(3);
 											uhuk1 = false;
 										}
 										break;
@@ -664,7 +666,8 @@ int main(){
 											cout << "Masukkan TTL baru (dd mm yy) : ";
 											cin.ignore(); cin >> dd >> mm >> yy;
 											recTendik[noID-1].setTglLahir(dd,mm,yy);
-											cout << "TTL berhasil dirubah!";
+											cout << "TTL berhasil dirubah!" << endl;
+											sleep(3);
 											uhuk1 = false;
 										}
 										break;
@@ -673,7 +676,8 @@ int main(){
 											cout << "Masukkan unit baru : ";
 											cin.ignore(); getline(cin, unit);
 											recTendik[noID-1].setUnit(unit);
-											cout << "Unit berhasil diubah!";
+											cout << "Unit berhasil diubah!" << endl;
+											sleep(3);
 											uhuk1 = false;
 										}
 										break;
@@ -782,7 +786,8 @@ int main(){
 											cout << "Masukkan nama matkul baru : ";
 											cin.ignore(); getline(cin, namaMatkul);
 											recMatkul[noID-1].setMatkul(namaMatkul);
-											cout << "Nama matkul berhasil diubah!";
+											cout << "Nama matkul berhasil diubah!" << endl;
+											sleep(3);
 											uhuk1 = false;
 										}
 										break;
@@ -791,17 +796,21 @@ int main(){
 											cout << "Masukkan kode matkul baru : ";
 											cin.ignore(); cin >> kodeMatkul;
 											recMatkul[noID-1].setKodeMatkul(kodeMatkul);
-											cout << "Kode Matkul berhasil diubah!";
+											cout << "Kode Matkul berhasil diubah!" << endl;
+											sleep(3);
 											uhuk1 = false;
 										}
+										break;
 									case 3:
 										{
 											cout << "Masukkan SKS Matkul baru : ";
 											cin.ignore(); cin >> sksMatkul;
 											recMatkul[noID-1].setSKSMatkul(sksMatkul);
-											cout << "SKS Matkul berhasil diubah!";
+											cout << "SKS Matkul berhasil diubah!" << endl;
+											sleep(3);
 											uhuk1 = false;
 										}
+										break;
 									case 4:
 										{
 											uhuk1 = false;

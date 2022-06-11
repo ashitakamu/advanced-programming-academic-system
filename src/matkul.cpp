@@ -26,7 +26,7 @@ std::string matkul::getKodeMatkul(){
     return this->kodeMatkul;
 }
 void matkul::setSKSMatkul(int sksMatkul){
-    this->sksMatkul;
+    this->sksMatkul = sksMatkul;
 }
 int matkul::getSKSMatkul(){
     return this->sksMatkul;

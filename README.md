@@ -33,4 +33,4 @@ plan for future:
 -counting score of each course
 ```
 
-Note : this code is indonesian-languanged, feel free to ask me at twitter @ashitakamu 
+Note : this code is indonesian-languanged, feel free to ask me at twitter [@ashitakamu](https://twitter.com/ashitakamu)
